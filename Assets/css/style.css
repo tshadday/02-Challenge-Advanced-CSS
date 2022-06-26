@@ -1,4 +1,4 @@
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, div {
     color: #162521;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,7 +20,7 @@ header div {
     display: inline-block;
     position: absolute;
     margin-top: 5%;
-    left: 55%;
+    left: 63.5%;
 }
 
 header div ul {
@@ -67,8 +67,33 @@ body {
     margin-right: 13%;
 }
 
-#projectImg1 {
-    width: 600px;
+#projectImgBig {
+    width: 620px;
+}
+
+.projectImg{
+    width: 300px;
+    height: 300px;
+}
+
+#projectTitle1 {
+    position: absolute;
+    margin-top: 375px;
+    margin-left: -600px;
+    background-color: #4f7cac;
+    padding: 3px;
+}
+
+#projectTitle2, #projectTitle3 {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -275px;
+    background-color: #4f7cac;
+    padding: 3px;
+}
+
+#Projects div {
+    display: inline-block;
 }
 
 #Projects img {
