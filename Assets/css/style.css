@@ -1,0 +1,82 @@
+h1, h2, h3, p, a {
+    color: #162521;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #4f7cac;
+    font-size: 25px;
+    padding: 3%;
+}
+
+header h1 {
+    text-decoration: underline dotted;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+}
+
+header div {
+    display: inline-block;
+    position: absolute;
+    margin-top: 5%;
+    left: 55%;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header div ul li a {  
+    color: #3C474B;
+    text-decoration: none;
+}
+
+body {
+    background-color: #C0E0ED;
+}
+
+#AboutMe, #ContactInfo, #Projects, #Resume {
+    display: inline-block;
+    width: 65%;
+    margin-right: 10px;
+    margin-left: 10%;
+    font-size: 140%;
+    border-left: 5px solid #4f7cac;
+    padding-left: 20px;
+}
+
+#AboutMe img {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    max-height: 300px;
+    margin-left: 65%;
+    margin-top: -15%;
+}
+
+#ContactInfo a {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 13%;
+}
+
+#projectImg1 {
+    width: 600px;
+}
+
+#Projects img {
+    border: 2px solid #3C474B;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+#Projects img:hover {
+    box-shadow: 0 0 2px 1px black;
+}
